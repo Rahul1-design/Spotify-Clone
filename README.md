@@ -36,5 +36,5 @@ This project recreates the basic UI and functionality of Spotify — including p
 
 
 
-## 📁 Project Structure
+
 
