@@ -1,0 +1,75 @@
+.border{
+    border: 2px solid black ;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-gray{
+    background-color: rgb(31 30 30);
+    color: white;
+}
+.rounded{
+    border-radius: 9px;
+}
+
+.m-5{
+    margin: 5px;
+}
+.p-20{
+    padding: 20px;
+}
+.p-10{
+    padding: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+
+/* For WebKit-based browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111; /* very dark gray background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555; /* medium gray thumb */
+  border-radius: 10px;
+  border: 2px solid #111; /* matches track, creates padding effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888; /* lighter gray on hover */
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Firefox Support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #555 #111;
+}
+
